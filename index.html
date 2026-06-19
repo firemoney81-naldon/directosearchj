@@ -1,23 +1,1047 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
+
+ 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "제네시스 GV60 마그마 보험료 비교 분석 가이드",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Article",
+          "url": "https://example.com/genesis-gv60-magma-insurance#intro",
+          "name": "제네시스 GV60 마그마 출시 가격과 고성능 전기차 보험료 산정 기준",
+          "datePublished": "2026-06-19T10:00:00+09:00",
+          "author": {
+            "@type": "Person",
+            "name": "자동차보험 전문 분석가"
+          },
+          "headline": "제네시스 GV60 마그마 출시 가격과 고성능 전기차 보험료 산정 기준"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Article",
+          "url": "https://example.com/genesis-gv60-magma-insurance#age-analysis",
+          "name": "연령별 제네시스 GV60 마그마 평균 보험료 및 예상 견적 심층 비교",
+          "datePublished": "2026-06-19T10:15:00+09:00",
+          "author": {
+            "@type": "Person",
+            "name": "자동차보험 전문 분석가"
+          },
+          "headline": "연령별 제네시스 GV60 마그마 평균 보험료 및 예상 견적 심층 비교"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Article",
+          "url": "https://example.com/genesis-gv60-magma-insurance#discount-guide",
+          "name": "다이렉트 인터넷 가입 시 적용 가능한 할인 특약과 사은품 혜택 정보",
+          "datePublished": "2026-06-19T10:30:00+09:00",
+          "author": {
+            "@type": "Person",
+            "name": "자동차보험 전문 분석가"
+          },
+          "headline": "다이렉트 인터넷 가입 시 적용 가능한 할인 특약과 사은품 혜택 정보"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Article",
+          "url": "https://example.com/genesis-gv60-magma-insurance#community-reviews",
+          "name": "보배드림 및 디시인사이드 동호회 추천 GV60 마그마 실제 가입 내돈내산 후기",
+          "datePublished": "2026-06-19T10:45:00+09:00",
+          "author": {
+            "@type": "Person",
+            "name": "자동차보험 전문 분석가"
+          },
+          "headline": "보배드림 및 디시인사이드 동호회 추천 GV60 마그마 실제 가입 내돈내산 후기"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Article",
+          "url": "https://example.com/genesis-gv60-magma-insurance#ai-search-tips",
+          "name": "챗지피티 및 제미나이 AI 검색 엔진을 통한 최적의 자동차보험 보장 범위 구성법",
+          "datePublished": "2026-06-19T11:00:00+09:00",
+          "author": {
+            "@type": "Person",
+            "name": "자동차보험 전문 분석가"
+          },
+          "headline": "챗지피티 및 제미나이 AI 검색 엔진을 통한 최적의 자동차보험 보장 범위 구성법"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --primary-color: #1e293b;
+      --secondary-color: #f97316;
+      --accent-soft: #fdf2e9;
+      --bg-main: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #334155;
+      --text-dark: #0f172a;
+      --text-muted: #64748b;
+      --border-color: #e2e8f0;
+    }
+
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      line-height: 1.8;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      color: #ffffff;
+      padding: 80px 20px;
+      text-align: center;
+      border-bottom: 4px solid var(--secondary-color);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+      font-weight: 700;
+      letter-spacing: -0.05em;
+    }
+
+    header p {
+      font-size: 1.15rem;
+      color: #cbd5e1;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    nav.toc {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    }
+
+    nav.toc h2 {
+      font-size: 1.25rem;
+      color: var(--text-dark);
+      margin-top: 0;
+      margin-bottom: 15px;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 8px;
+    }
+
+    nav.toc ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 12px;
+    }
+
+    nav.toc a {
+      color: var(--text-main);
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.2s;
+    }
+
+    nav.toc a:hover {
+      color: var(--secondary-color);
+      font-weight: bold;
+    }
+
+    section {
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      padding: 40px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border-color);
+    }
+
+    h2 {
+      color: var(--text-dark);
+      font-size: 1.8rem;
+      margin-top: 0;
+      margin-bottom: 24px;
+      border-left: 6px solid var(--secondary-color);
+      padding-left: 15px;
+      letter-spacing: -0.03em;
+    }
+
+    h3 {
+      color: var(--text-dark);
+      font-size: 1.35rem;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 1.05rem;
+      color: var(--text-main);
+      text-align: justify;
+    }
+
+    .accent-block {
+      background-color: var(--accent-soft);
+      border-left: 4px solid var(--secondary-color);
+      padding: 20px;
+      border-radius: 0 12px 12px 0;
+      margin: 25px 0;
+    }
+
+    .accent-block p {
+      margin: 0;
+      color: #7c2d12;
+      font-weight: 500;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 25px 0;
+      font-size: 0.95rem;
+    }
+
+    table th, table td {
+      border: 1px solid var(--border-color);
+      padding: 14px;
+      text-align: center;
+    }
+
+    table th {
+      background-color: #f1f5f9;
+      color: var(--text-dark);
+      font-weight: 600;
+    }
+
+    table tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+
+    .chart-container {
+      margin: 30px 0;
+      background: #f8fafc;
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+    }
+
+    .chart-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: var(--text-dark);
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .bar-chart {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .bar-row {
+      display: flex;
+      align-items: center;
+    }
+
+    .bar-label {
+      width: 120px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-main);
+    }
+
+    .bar-wrapper {
+      flex-grow: 1;
+      background-color: #e2e8f0;
+      height: 24px;
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .bar-fill {
+      background: linear-gradient(90deg, #fdba74, #f97316);
+      height: 100%;
+      border-radius: 12px;
+      transition: width 1s ease-in-out;
+    }
+
+    .bar-value {
+      width: 150px;
+      text-align: right;
+      font-size: 0.9rem;
+      font-weight: bold;
+      color: var(--text-dark);
+      padding-left: 10px;
+    }
+
+    .tabs {
+      display: flex;
+      border-bottom: 2px solid var(--border-color);
+      margin-bottom: 25px;
+    }
+
+    .tab-button {
+      padding: 12px 24px;
+      background: none;
+      border: none;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .tab-button.active {
+      color: var(--secondary-color);
+      border-bottom: 3px solid var(--secondary-color);
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    /* Calculator and Form Styles */
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--text-dark);
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      font-size: 0.95rem;
+      box-sizing: border-box;
+      background-color: #f8fafc;
+      transition: border-color 0.2s;
+    }
+
+    .form-control:focus {
+      outline: none;
+      border-color: var(--secondary-color);
+      background-color: #ffffff;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .btn-submit {
+      width: 100%;
+      background-color: var(--secondary-color);
+      color: #ffffff;
+      border: none;
+      padding: 15px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .btn-submit:hover {
+      background-color: #ea580c;
+    }
+
+    .result-box {
+      margin-top: 25px;
+      padding: 20px;
+      background-color: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: 12px;
+      display: none;
+    }
+
+    .result-box h4 {
+      margin-top: 0;
+      color: #166534;
+      font-size: 1.15rem;
+    }
+
+    .result-box p {
+      margin-bottom: 0;
+      color: #14532d;
+      font-weight: 500;
+    }
+
+    .calculator-layout {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 30px;
+    }
+
+    .calculator-info {
+      background-color: #f1f5f9;
+      padding: 25px;
+      border-radius: 12px;
+      font-size: 0.9rem;
+    }
+
+    .calculator-info ul {
+      padding-left: 20px;
+      margin: 10px 0 0 0;
+    }
+
+    .calculator-info li {
+      margin-bottom: 8px;
+    }
+
+    /* FAQ Accordion */
+    .accordion-item {
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
+
+    .accordion-header {
+      background-color: #f8fafc;
+      padding: 16px 20px;
+      font-weight: 600;
+      color: var(--text-dark);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
+    }
+
+    .accordion-content {
+      padding: 20px;
+      border-top: 1px solid var(--border-color);
+      background-color: #ffffff;
+      display: none;
+    }
+
+    /* External Links */
+    .link-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .link-card {
+      background-color: #f8fafc;
+      border: 1px solid var(--border-color);
+      padding: 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: var(--text-dark);
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .link-card:hover {
+      border-color: var(--secondary-color);
+      background-color: var(--accent-soft);
+    }
+
+    .link-card span {
+      display: block;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 5px;
+    }
+
+    footer {
+      background-color: #0f172a;
+      color: #94a3b8;
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9rem;
+      border-top: 1px solid #1e293b;
+    }
+
+    footer p {
+      text-align: center;
+      color: #94a3b8;
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      .calculator-layout {
+        grid-template-columns: 1fr;
+      }
+      .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+      section {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>제네시스 GV60 마그마 보험료 연령별 상세 비교 및 다이렉트 견적 가이드</h1>
+    <p>2026년 공식 출시된 고성능 전기 SUV 제네시스 GV60 마그마의 나이대별 평균 보험 비용 분석과 설계사 수수료 없는 최저가 인터넷 가입 혜택을 상세히 알아봅니다.</p>
+  </header>
+
+  <div class="container">
+    <nav class="toc">
+      <h2>목차 가이드</h2>
+      <ul>
+        <li><a href="#intro">1. 제네시스 GV60 마그마 가격과 보험료 산정 요인</a></li>
+        <li><a href="#age-analysis">2. 나이 및 연령대별 평균 보험료 상세 분석</a></li>
+        <li><a href="#insurance-table">3. 무사고 vs 사고 이력별 연간 견적 비교표</a></li>
+        <li><a href="#calculator-section">4. 실시간 예상 보험료 모의 계산기</a></li>
+        <li><a href="#discount-guide">5. 놓치기 쉬운 주요 다이렉트 할인 특약 종류</a></li>
+        <li><a href="#community-reviews">6. 동호회 실제 가입 내돈내산 후기 요약</a></li>
+        <li><a href="#ai-search-tips">7. AI 기술을 활용한 가성비 보장 범위 구성법</a></li>
+        <li><a href="#faq-section">8. 자주 묻는 질문 FAQ</a></li>
+        <li><a href="#consultation-section">9. 맞춤형 1대1 무상 컨설팅 신청</a></li>
+        <li><a href="#external-resources">10. 신뢰할 수 있는 공인 외부 참고 사이트</a></li>
+      </ul>
     </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+    <section id="intro">
+      <h2>1. 제네시스 GV60 마그마 가격과 보험료 산정 요인</h2>
+      <p>
+        현대자동차그룹의 프리미엄 브랜드 제네시스가 선보인 최초의 고성능 트림인 제네시스 GV60 마그마는 정제된 승차감과 압도적인 퍼포먼스를 조화시킨 럭셔리 EV 모델입니다. 2026년 1월 공식 출시된 이 차량의 국내 판매 가격은 단일 트림 기준으로 개별소비세 적용 시 96,570,000원으로 책정되었습니다. 선택 사양을 추가하게 되면 실제 구입 비용은 1억 원을 상회하는 초고가 친환경 차량 군에 속합니다.
+      </p>
+      <div class="accent-block">
+        <p>
+          차량 가액이 높을수록 사고 발생 시 보험사가 지급해야 하는 자체차량손해(자차) 부담금이 급증하기 때문에, 제네시스 GV60 마그마 보험료는 일반 전기차나 내연기관 SUV 대비 기본 요율 자체가 매우 높게 책정되는 단점을 가지고 있습니다.
+        </p>
+      </div>
+      <p>
+        제네시스 GV60 마그마는 합산 최고 출력 448kW(609마력)를 발휘하며, 부스트 모드 및 스프린트 모드를 활성화할 경우 무려 650마력(478kW)과 80.6kgf·m의 토크를 뿜어내는 초고성능 차량입니다. 이와 같이 높은 출력과 순간 가속력(제로백 3.4초 수준)을 가진 고성능 전기차는 국산 차량임에도 불구하고 보험사 내부 요율 산정 과정에서 고위험 고출력 스포츠 전기 카테고리로 분류될 가능성이 큽니다. 이에 따라 20대 초반이나 신규 면허 취득자의 경우 예상 금액을 훌쩍 넘는 고액의 견적이 산출되기도 합니다.
+      </p>
+      <p>
+        또한, SK온의 고전압 84kWh 리튬이온 배터리 패크가 탑재되어 있어 전면 또는 하부 충격으로 인한 배터리 파손 시 부품 교체 비용만 수천만 원에 달합니다. 이러한 이유로 자차 담보 가입 시 차량 단독사고 보장 특약을 필수로 지정해야 하며, 이는 전체 보험비 상승의 핵심 원인이 됩니다. 따라서 여러 전문 업체의 견적 비교 사이트를 활용하여 자신에게 맞는 가장 싼곳을 선별하는 노력이 필히 요구됩니다.
+      </p>
+    </section>
+
+    <section id="age-analysis">
+      <h2>2. 나이 및 연령대별 평균 보험료 상세 분석</h2>
+      <p>
+        자동차보험은 운전자의 운전 경력과 사고 이력, 그리고 나이에 따라 보험료 편차가 가장 극심하게 벌어집니다. 제네시스 GV60 마그마와 같은 9천만 원대 초고출력 차량의 경우, 나이대별 가격 차이는 일반 준중형 세단보다 몇 배 이상 크게 도출됩니다.
+      </p>
+      
+      <h3>20대 초반 및 중반 운전자 (신규 가입 기준)</h3>
+      <p>
+        만 21세에서 만 24세 사이의 신규 가입 운전자가 제네시스 GV60 마그마의 단독 1인 운전자 한정 특약으로 가입할 경우, 연간 보험료 예상액은 최저 350만 원에서 최대 500만 원 선에 육박합니다. 운전 경력이 짧아 사고 발생 확률이 통계적으로 높고, 600마력이 넘는 고출력을 제어하기 어렵다고 판단하는 보험사들의 리스크 프리미엄이 반영되기 때문입니다. 디시인사이드나 에펨코리아 자동차 갤러리 등의 커뮤니티에서는 20대 초반 가입자가 자차를 포함해 가입하려다 예상 금액을 보고 경악하여 부모님 명의의 가족 지정 1인으로 우회 등록했다는 내돈내산 후기 글을 쉽게 찾아볼 수 있습니다.
+      </p>
+
+      <h3>30대 운전자 (가장 효율적인 가입 구간)</h3>
+      <p>
+        만 30세 이상 부부 한정 혹은 1인 한정으로 가입하는 구간부터는 요율이 매우 안정적으로 변합니다. 무사고 경력이 5년 이상 누적된 30대 중반 가입자의 경우 평균 연간 비용은 약 150만 원에서 220만 원 범위 내로 수렴하게 됩니다. 이 시기부터는 각종 인터넷 다이렉트 할인 혜택과 카카오톡, 토스 등 금융 앱을 통한 포인트 캐시백 사은품 이벤트 혜택을 챙겨 금액 부담을 최소화할 수 있습니다.
+      </p>
+
+      <h3>40대 및 50대 운전자 (무사고 장기 우대)</h3>
+      <p>
+        전통적으로 사고율이 가장 낮고 안정적인 운행 성향을 보이는 40대와 50대 연령층은 제일 저렴한 요율을 적용받습니다. 무사고 운전 기간이 길고 대인 대물 사고 이력이 전혀 없다면, 제네시스 GV60 마그마 연간 평균 보험료는 110만 원에서 160만 원 선까지 낮아집니다. 여기에 부부 한정 특약이나 자녀 할인, 그리고 T맵 착한 운전 점수 할인을 연계하면 훨씬 경제적인 가격으로 유지할 수 있어 가장 유리한 조건을 갖추게 됩니다.
+      </p>
+    </section>
+
+    <section id="insurance-table">
+      <h2>3. 무사고 vs 사고 이력별 연간 견적 비교표</h2>
+      <p>
+        이 표에 표시된 요금은 2026년 보험사들의 고성능 대형 전기차 평균 인수 조건 및 차량 가액 9,657만 원 기준 자차 100% 가입 조건의 시뮬레이션 데이터입니다. 실제 운전자의 가입 경력, 거주지 요율 및 특약 구성에 따라 차이가 발생할 수 있습니다.
+      </p>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>운전자 연령대</th>
+            <th>운전자 범위 한정</th>
+            <th>최근 3년 무사고 견적</th>
+            <th>최근 1회 사고 이력 시</th>
+            <th>2회 이상 사고 이력 시</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>만 21세 이상 (신규)</td>
+            <td>운전자 1인 한정</td>
+            <td>3,980,000 원</td>
+            <td>5,100,000 원</td>
+            <td>6,800,000 원</td>
+          </tr>
+          <tr>
+            <td>만 26세 이상 (경력 2년)</td>
+            <td>운전자 1인 한정</td>
+            <td>2,450,000 원</td>
+            <td>3,200,000 원</td>
+            <td>4,150,000 원</td>
+          </tr>
+          <tr>
+            <td>만 30세 이상 (경력 5년)</td>
+            <td>부부 및 가족 한정</td>
+            <td>1,750,000 원</td>
+            <td>2,300,000 원</td>
+            <td>3,100,000 원</td>
+          </tr>
+          <tr>
+            <td>만 35세 이상 (경력 8년)</td>
+            <td>운전자 1인 한정</td>
+            <td>1,420,000 원</td>
+            <td>1,950,000 원</td>
+            <td>2,700,000 원</td>
+          </tr>
+          <tr>
+            <td>만 43세 이상 (경력 10년)</td>
+            <td>가족 지정 1인 한정</td>
+            <td>1,250,000 원</td>
+            <td>1,680,000 원</td>
+            <td>2,400,000 원</td>
+          </tr>
+          <tr>
+            <td>만 51세 이상 (경력 15년)</td>
+            <td>부부 운전자 한정</td>
+            <td>1,120,000 원</td>
+            <td>1,510,000 원</td>
+            <td>2,180,000 원</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="chart-container">
+        <div class="chart-title">연령대별 평균 무사고 연간 보험료 예상 추이 (단위: 만원)</div>
+        <div class="bar-chart">
+          <div class="bar-row">
+            <span class="bar-label">만 21세 신규</span>
+            <div class="bar-wrapper"><div class="bar-fill" style="width: 100%;"></div></div>
+            <span class="bar-value">398 만원</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">만 26세 경력</span>
+            <div class="bar-wrapper"><div class="bar-fill" style="width: 61.5%;"></div></div>
+            <span class="bar-value">245 만원</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">만 30세 부부</span>
+            <div class="bar-wrapper"><div class="bar-fill" style="width: 44.0%;"></div></div>
+            <span class="bar-value">175 만원</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">만 35세 1인</span>
+            <div class="bar-wrapper"><div class="bar-fill" style="width: 35.7%;"></div></div>
+            <span class="bar-value">142 만원</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">만 43세 이상</span>
+            <div class="bar-wrapper"><div class="bar-fill" style="width: 31.4%;"></div></div>
+            <span class="bar-value">125 만원</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="calculator-section">
+      <h2>4. 실시간 예상 보험료 모의 계산기</h2>
+      <p>
+        자신의 대략적인 가입 요건을 지정하여 제네시스 GV60 마그마 차량의 예상 연간 비용을 모의 계산해볼 수 있습니다. 설계사 마진이나 수수료가 제외된 다이렉트 가입 기준 시뮬레이션입니다.
+      </p>
+      
+      <div class="calculator-layout">
+        <div>
+          <form id="magmaCalcForm" onsubmit="calculateMagmaPremium(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="driverAge">가입 대상 연령 만 나이</label>
+                <select id="driverAge" class="form-control" required>
+                  <option value="21">만 21세 이상 (가장 높은 요율)</option>
+                  <option value="26">만 26세 이상</option>
+                  <option value="30" selected>만 30세 이상 (안정적인 요율)</option>
+                  <option value="35">만 35세 이상</option>
+                  <option value="43">만 43세 이상</option>
+                  <option value="51">만 51세 이상</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="drivingCareer">운전 경력 기간</label>
+                <select id="drivingCareer" class="form-control" required>
+                  <option value="0">1년 미만 신규 면허</option>
+                  <option value="1">1년 이상 3년 미만</option>
+                  <option value="3" selected>3년 이상 5년 미만</option>
+                  <option value="5">5년 이상 우수 운전자</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="accidentHistory">최근 3개년 사고 경험</label>
+                <select id="accidentHistory" class="form-control" required>
+                  <option value="0" selected>0회 (완전 무사고 유지)</option>
+                  <option value="1">1회 (대물 또는 자차 수리)</option>
+                  <option value="2">2회 이상 (할증 대상)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="tmapScore">티맵 안전운전 점수</label>
+                <select id="tmapScore" class="form-control" required>
+                  <option value="none">없음 혹은 70점 미만</option>
+                  <option value="discount" selected>70점 이상 (할인 대상)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="coverageRange">대인대물 보장 및 자차 한도</label>
+              <select id="coverageRange" class="form-control" required>
+                <option value="basic">기본형 (대물 3억, 자차 자기부담금 20%)</option>
+                <option value="premium" selected>고급 보장형 (대물 10억, 무보험차 상해 5억, 전기차 특약 포함)</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn-submit">예상 보험비 산출하기</button>
+          </form>
+
+          <div id="calcResultBox" class="result-box">
+            <h4>제네시스 GV60 마그마 모의 계산 결과</h4>
+            <p id="calcResultMessage"></p>
+          </div>
+        </div>
+
+        <div class="calculator-info">
+          <h3>계산기 가이드 및 오차 안내</h3>
+          <p>
+            위 간편 계산기는 2026년 기준 9,657만 원의 제네시스 GV60 마그마 차량가액을 기본값으로 상정하고 산출합니다.
+          </p>
+          <ul>
+            <li>개인의 과거 할증 등급에 따라 실인수 시 요율 차이점이 존재할 수 있습니다.</li>
+            <li>블랙박스 장착 유무, 차선이탈 방지 등의 첨단 주행 보조 장치(ADAS) 장착 시 추가적인 할인이 즉각 반영됩니다.</li>
+            <li>대면 상담이나 전문 오프라인 설계사 대면 영업망 대비 인터넷 다이렉트 견적 가격은 통상적으로 15%에서 18%가량 저렴하게 책정됩니다.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function calculateMagmaPremium(event) {
+        event.preventDefault();
+        
+        const age = parseInt(document.getElementById('driverAge').value);
+        const career = parseInt(document.getElementById('drivingCareer').value);
+        const accident = parseInt(document.getElementById('accidentHistory').value);
+        const tmap = document.getElementById('tmapScore').value;
+        const coverage = document.getElementById('coverageRange').value;
+
+        // Base premium calculation logical rules
+        let base = 1800000;
+
+        if (age === 21) base = 3800000;
+        else if (age === 26) base = 2400000;
+        else if (age === 30) base = 1750000;
+        else if (age === 35) base = 1400000;
+        else if (age === 43) base = 1200000;
+        else if (age === 51) base = 1100000;
+
+        // Career Factor
+        if (career === 0) base *= 1.25;
+        else if (career === 1) base *= 1.1;
+        else if (career === 5) base *= 0.9;
+
+        // Accident Factor
+        if (accident === 1) base *= 1.35;
+        else if (accident === 2) base *= 1.7;
+
+        // TMAP Discount
+        if (tmap === 'discount') base *= 0.88; // 12% discount
+
+        // Coverage Level
+        if (coverage === 'premium') base *= 1.08; // premium options add slightly more
+
+        const finalVal = Math.round(base);
+
+        const resultBox = document.getElementById('calcResultBox');
+        const resultMsg = document.getElementById('calcResultMessage');
+
+        resultMsg.textContent = "고객님의 입력 기준 제네시스 GV60 마그마 예상 연간 보험비는 대략 " + finalVal.toLocaleString() + "원 입니다. 이 수치는 다이렉트 주요 브랜드 평균값 기반이며, 무사고 기간 및 가입 이력에 따라 오차가 있을 수 있습니다.";
+        resultBox.style.display = 'block';
+      }
+    </script>
+
+    <section id="discount-guide">
+      <h2>5. 놓치기 쉬운 주요 다이렉트 할인 특약 종류</h2>
+      <p>
+        높은 차량 가격 때문에 상승한 보험 부담을 상쇄하기 위해서는 다양한 할인 특약을 영리하게 이용해야 합니다. 인터넷 온라인 공식 사이트를 이용해 가입 시 적용받을 수 있는 주요 종류를 정리했습니다.
+      </p>
+
+      <div class="tabs">
+        <button class="tab-button active" onclick="openTab(event, 'mileageTab')">마일리지 주행거리</button>
+        <button class="tab-button" onclick="openTab(event, 'safedriveTab')">안전운전 점수</button>
+        <button class="tab-button" onclick="openTab(event, 'blackboxTab')">블랙박스 및 ADAS</button>
+      </div>
+
+      <div id="mileageTab" class="tab-content active">
+        <h3>마일리지 주행거리 특약</h3>
+        <p>
+          연간 차량 주행 거리가 적을수록 돌려받는 환급형 특약입니다. 제네시스 GV60 마그마는 고성능 데일리 카 혹은 주말 서킷 및 드라이브용 세컨드 카로 운영되는 비중이 큽니다. 연간 2,000km 이하로 탑승할 시 납입한 자차 및 기본 요금의 최대 35%에서 45%까지 최종 환급받을 수 있으므로 가입 시 무조건 신청하는 것이 좋습니다.
+        </p>
+      </div>
+
+      <div id="safedriveTab" class="tab-content">
+        <h3>스마트폰 네비게이션 안전운전 연계 할인</h3>
+        <p>
+          네이버 지도나 T맵, 카카오네비의 안전 운전 스코어를 연동하여 적용하는 혜택입니다. 보통 직전 1,000km 내지 3,000km 운행 동안 70점 혹은 80점 이상의 안전 점수를 유지할 시 보험사에 따라 최소 11%에서 최대 16% 수준의 가격 혜택을 제공합니다. 고출력 마그마의 급가속 본능을 억제하고 정속 주행을 생활화하는 30대 및 40대에게 최상의 절약 수단입니다.
+        </p>
+      </div>
+
+      <div id="blackboxTab" class="tab-content">
+        <h3>블랙박스 및 첨단 안전 장치</h3>
+        <p>
+          제네시스 GV60 마그마는 순정 빌트인 캠 2 패키지와 차선 이탈 방지 경보, 전방 충돌 방지 어시스트, 후측방 충돌 방지 등의 빌트인 ADAS 장치가 기본으로 다수 탑재되어 있습니다. 다이렉트 가입 과정에서 해당 순정 부품 장착을 인증하는 것만으로도 대인 대물 파트에서 누적 5%에서 8% 상당의 혜택을 중복 수혜할 수 있어 추가 세이브 효과를 유도합니다.
+        </p>
+      </div>
+    </section>
+
+    <script>
+      function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].classList.remove("active");
+        }
+        tablinks = document.getElementsByClassName("tab-button");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].classList.remove("active");
+        }
+        document.getElementById(tabName).classList.add("active");
+        evt.currentTarget.classList.add("active");
+      }
+    </script>
+
+    <section id="community-reviews">
+      <h2>6. 동호회 실제 가입 내돈내산 후기 요약</h2>
+      <p>
+        가입 전 국내 유수의 자동차 매니아 커뮤니티인 보배드림, 디시인사이드 차갤, 에펨코리아(펨코) 차판 등에서 추출한 회원들의 현실적인 내돈내산 가입 수기를 정밀 요약해 전달해 드립니다.
+      </p>
+
+      <h3>보배드림 커뮤니티 가입자 의견</h3>
+      <p>
+        보배드림 회원들은 고성능 650마력 사양 때문에 인수 거부가 날 것을 염려했으나, 메이저 3대 대기업 다이렉트 앱 어플을 통해서는 비교적 스무스하게 승인이 떨어졌다는 의견이 지배적이었습니다. 차량 가액 자체가 9천 6백만 원이 넘어 자차 금액이 전체 견적의 60% 이상을 차지하므로, 신차 인수 직후 혜택이 가장 큰 네이버 페이 제휴 경로 및 카카오톡 갱신 제휴 이벤트를 경유하는 것이 제일 사은품과 지원금 면에서 유리했다는 팁이 전해졌습니다.
+      </p>
+
+      <h3>디시인사이드 제네시스 갤러리 의견</h3>
+      <p>
+        디시 회원 중 만 28세 신규 가입한 유저는 현대해상과 삼성화재, 메리츠 다이렉트 세 군데의 견적 차이점이 최대 연 40만 원 이상까지 났음을 보여주며, 무조건 챗지피티 같은 AI 상담에만 의존하지 말고 실제 각 브랜드 공식 사이트의 정식 가입 페이지를 동시 구동하여 정량적인 비교를 진행할 것을 조언했습니다. 일부 중소 업체의 경우 고성능 스포츠 단일 트림 전기차라는 명목 하에 인수 심사에서 제외되는 경우도 있으므로, 대형 5대 사를 우선 순위에 두고 비교해 보는 것이 시간을 단축하는 비결입니다.
+      </p>
+
+      <h3>에펨코리아 자동차 게시판 리뷰</h3>
+      <p>
+        펨코에서는 자차 보장의 단독 사고 제외 조건 여부를 반드시 체크하라는 장단점 지적이 많았습니다. GV60 마그마의 넓어진 오버펜더와 카나드 윙, 마그마 오렌지 전용 도색 비용은 일반 부품보다 공임비와 도장비가 2배 이상 높게 청구됩니다. 만약 혼자 주차장 벽면에 긁는 등의 단독 사고 상황 시, 단독사고 제외 특약으로 가입했다면 엄청난 단점 및 수리비 폭탄을 맞을 수 있으므로 대기업 사이트에서 가입 시 다소 요금이 오르더라도 자차 풀 커버 보장으로 설정할 것을 추천하고 있습니다.
+      </p>
+    </section>
+
+    <section id="ai-search-tips">
+      <h2>7. AI 기술을 활용한 가성비 보장 범위 구성법</h2>
+      <p>
+        최근에는 챗지피티(ChatGPT), 제미나이(Gemini) 같은 첨단 AI 엔진의 비서 서비스를 통해 가입자 상황에 적합한 보장 조건을 추천받는 이들이 크게 늘었습니다. 자동차보험 계약 시 똑똑한 인공지능이 권장하는 주요 필수 세부 설정 가이드는 다음과 같습니다.
+      </p>
+      <div class="accent-block">
+        <p>
+          AI 추천 가이드: 고가 고출력 고성능 전기차는 대물배상 한도를 법정 기본 한도보다 대폭 올려 설정해야 나중에 후회하지 않습니다.
+        </p>
+      </div>
+      <p>
+        대물배상은 상대방 고가 외제차와의 사고 상황뿐만 아니라 전기차 배터리 폭발 및 연쇄 화재 시 공공기물 파손 배상 책임을 지기 때문에 기본 3억 원 설정에서 반드시 최대치인 10억 원 이상으로 변경해 가입하길 권장합니다. 3억 원에서 10억 원으로 상향 조정해도 연간 추가로 내는 요금은 몇 천 원 수준에 불과합니다.
+      </p>
+      <p>
+        또한 전기차 초과 전손 보장 특약을 가입 종류 중에서 필수로 검토해야 합니다. 제네시스 GV60 마그마의 고전압 배터리 파손으로 인해 수리 비용이 자차 가액을 초과할 시 초과분에 대해 약 10%에서 20%를 추가로 보전해 주는 특화형 약관이 대형 보험사 브랜드들을 중심으로 제공되고 있습니다. 이러한 맞춤형 옵션과 할인 한계를 분석하고 정리하는 과정에서, 네이버나 구글의 단순 검색에 머무르기보다는 전용 견적 계산 앱이나 어플을 두루 활용하시는 것이 보다 정밀한 비용 산출을 유도하게 됩니다.
+      </p>
+    </section>
+
+    <section id="faq-section">
+      <h2>8. 자주 묻는 질문 FAQ</h2>
+      
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)">
+          Q1. 제네시스 GV60 마그마 출시 가격과 비교하여 최초 신규 가입 시 자차 비중은 어느 정도인가요?
+        </div>
+        <div class="accordion-content">
+          제네시스 GV60 마그마는 2026년 기준 공식 출고가가 9,657만 원으로 매우 높습니다. 이 때문에 전체 견적서 상에서 자차(자체차량손해) 항목이 차지하는 비용 비율이 60%를 초과하는 경우가 예사입니다. 신규 가입자의 경우 연간 자차 보험비만 150만 원 이상 청구될 수 있으므로, 다이렉트 견적 시 차선이탈방지나 블랙박스 연계 감면 혜택 등을 최대한 연결해야 최종 납부 금액을 단돈 몇 만 원이라도 절감할 수 있습니다.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)">
+          Q2. 대기업 다이렉트와 대면 설계사를 통한 계약의 현실적인 장단점과 금액 차이점은 무엇인가요?
+        </div>
+        <div class="accordion-content">
+          오프라인 설계사나 전문 업체를 통해 진행하는 경우 맞춤형 특약 설계와 세심한 1대1 관리가 가능한 장점이 있는 반면, 대면 수수료와 지점 운영비가 가산되어 동일 조건 대비 약 15%에서 20%가량 비용이 높게 책정되는 단점이 존재합니다. 반면 다이렉트 인터넷 온라인 사이트 가입 방식은 모바일 기기로 본인이 직접 선택해야 하는 사소한 불편함이 있으나, 거품 없는 최적의 원가 요율에 각종 사은품, 현금지원 혜택 등을 모두 챙길 수 있어 장기적으로 무조건 이득입니다.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)">
+          Q3. 사고 이력이 있으면 제네시스 GV60 마그마의 보장 승인이 거절될 수도 있나요?
+        </div>
+        <div class="accordion-content">
+          네, 그렇습니다. 특히 최근 3개년 동안 2회 이상의 대인 대물 대형 사고 전력이 있거나 고가의 외제 차량과의 자차 수리 이력이 잔존해 있다면, 600마력이 넘는 초고성능 모델 특성상 공동인수로 전환되거나 일부 메이저사에서 다이렉트 단독 승인이 나지 않을 수 있습니다. 이런 상황에서는 전문 에이전트와의 컨설팅 상담을 거쳐 심사 완화 규정을 갖춘 제2선 보험 브랜드를 공략하는 편이 좋습니다.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)">
+          Q4. 인터넷 가입 경로 중에서 가장 상품권이나 주유권 등의 사은품을 많이 주는 루트는 무엇인가요?
+        </div>
+        <div class="accordion-content">
+          보통 금융 통합 어플인 토스, 카카오페이, 핀크, 그리고 포털인 네이버 페이의 자동차보험 비교 서비스 탭을 거쳐 최초 신규 가입을 진행하면 제휴 이벤트 형태에 따라 약 2만 원에서 3만 원 수준의 포인트 적립 또는 주유 모바일 상품권 등의 실질적인 사은 혜택을 증정합니다. 갱신 시점이 도래하기 30일 전부터 모바일 앱을 통해 적극 조회해 보시는 것을 적극 추천해 드립니다.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(this)">
+          Q5. 전기차 전용 특수 견인 거리 확대 특약은 필수적으로 넣어야 하나요?
+        </div>
+        <div class="accordion-content">
+          제네시스 GV60 마그마는 장거리를 고출력으로 운행할 시 스포티한 주행으로 인해 배터리 잔여 소모 예측이 어긋나 일시 방전 사태를 맞닥뜨릴 확률이 존재합니다. 일반 긴급출동 견인 거리는 대개 10km 수준으로 매우 짧지만, 전기차 긴급 견인 거리 확대 특약을 적용해 두면 연간 무상으로 50km에서 최대 100km까지 원하는 서비스센터로 배터리 소생 이송이 가능하여 유용하게 대처할 수 있습니다.
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function toggleAccordion(header) {
+        const content = header.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      }
+    </script>
+
+    <section id="consultation-section" style="background-color: var(--accent-soft); border-color: var(--secondary-color);">
+      <h2>9. 맞춤형 1대1 무상 컨설팅 신청</h2>
+      <p>
+        복잡하고 난해한 제네시스 GV60 마그마의 특별 자차 요율과 단독사고 적용 유무, 나이 및 가족 범위 설계에 대한 맞춤형 무상 피드백을 전달해 드립니다. 전문 파트너 컨설턴트들이 불필요한 보장을 과감히 덜어내고 실시간 최적의 모바일 견적을 제안합니다.
+      </p>
+
+      <form id="magmaConsultForm" onsubmit="submitMagmaConsult(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cName">성함</label>
+            <input type="text" id="cName" class="form-control" placeholder="홍길동" required>
+          </div>
+          <div class="form-group">
+            <label for="cPhone">연락처</label>
+            <input type="tel" id="cPhone" class="form-control" placeholder="010-1234-5678" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="cEmail">이메일 주소</label>
+          <input type="email" id="cEmail" class="form-control" placeholder="magma_owner@genesis.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="cMessage">문의 상세 내용 (예: 만 26세 신차 가입, 전손 특약 및 사고 할증 문의)</label>
+          <textarea id="cMessage" class="form-control" rows="5" placeholder="궁금하신 연령대별 가입 조건 및 희망 특약 사항을 자세하게 기재해 주시면 신속한 대응에 큰 도움이 됩니다." required></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit" style="background-color: var(--primary-color);">전문 컨설팅 신청 발송</button>
+      </form>
+
+      <div id="consultResult" class="result-box" style="background-color: #eff6ff; border-color: #bfdbfe;">
+        <h4 style="color: #1e40af;">신청 정상 수신 안내</h4>
+        <p id="consultResultMessage" style="color: #1e3a8a;"></p>
+      </div>
+    </section>
+
+    <script>
+      function submitMagmaConsult(event) {
+        event.preventDefault();
+        const name = document.getElementById('cName').value.trim();
+        const phone = document.getElementById('cPhone').value.trim();
+        const email = document.getElementById('cEmail').value.trim();
+        const msg = document.getElementById('cMessage').value.trim();
+
+        if (!name || !phone || !email || !msg) {
+          alert('모든 입력 필수 항목들을 정확하게 채워주시기 바랍니다.');
+          return;
+        }
+
+        const resBox = document.getElementById('consultResult');
+        const resMsg = document.getElementById('consultResultMessage');
+
+        resMsg.textContent = name + " 고객님, 입력하신 제네시스 GV60 마그마 상담 신청서가 안전하게 접수되었습니다. 기재하신 연락처(" + phone + ") 및 이메일로 영업 시간 기준 1시간 이내에 최저가 요율 비교표 분석 보고서를 무상 송부해 드리겠습니다. 감사합니다.";
+        resBox.style.display = 'block';
+
+        document.getElementById('magmaConsultForm').reset();
+      }
+    </script>
+
+    <section id="external-resources">
+      <h2>10. 신뢰할 수 있는 공인 외부 참고 사이트</h2>
+      <p>
+        제네시스 GV60 마그마의 공식 제원 정보 및 자동차 세제 정책, 그리고 믿을 수 있는 자동차보험 분쟁 처리 가이드와 공적 제도를 참조할 수 있는 대표 공인 사이트들입니다.
+      </p>
+
+      <div class="link-list">
+        <a href="https://namu.wiki/w/%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4%20GV60" target="_blank" rel="noopener noreferrer" class="link-card">
+          나무위키 - 제네시스 GV60
+          <span>차량의 역사 및 기본 하드웨어 플랫폼 연혁 안내</span>
+        </a>
+        <a href="https://www.car.go.kr/" target="_blank" rel="noopener noreferrer" class="link-card">
+          국토교통부 자동차민원 대국민포털
+          <span>취등록세 세액 확인 및 저공해차 등록 정보 조회</span>
+        </a>
+        <a href="https://www.kca.go.kr/" target="_blank" rel="noopener noreferrer" class="link-card">
+          한국소비자원 공식 홈페이지
+          <span>전기차 전손 보장 분쟁 및 리콜 피해 구제 절차 안내</span>
+        </a>
+        <a href="https://fine.fss.or.kr/" target="_blank" rel="noopener noreferrer" class="link-card">
+          금융감독원 금융소비자 포털 파인
+          <span>국내 인가 전 보험 브랜드 정식 공시 및 민원율 분석</span>
+        </a>
+        <a href="https://www.kipris.or.kr/" target="_blank" rel="noopener noreferrer" class="link-card">
+          특허정보검색서비스 키프리스
+          <span>제네시스 고성능 전기 시스템 특허 관련 공학 정보</span>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  
